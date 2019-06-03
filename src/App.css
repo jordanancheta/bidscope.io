@@ -1,0 +1,97 @@
+.container {
+   display: flex;
+   justify-content: space-between;
+   background-color: #ffff;
+}
+
+.App {
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 10px;
+}
+
+.section {
+  background-color: #ffff;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+  border-bottom-style: solid;
+}
+
+.nav {
+   display: flex;
+   justify-content: flex-end;
+   padding: 25px 15px 0px 15px;
+}
+
+.sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
+
+.home-link {
+   padding-right: 5px;
+}
+
+.App-content {
+  background-color: #282c34;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.pdf-form {
+   width: 25%;
+   padding-bottom: 5px;
+}
+
+input {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+.form-button {
+   padding-top: 3px;
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
