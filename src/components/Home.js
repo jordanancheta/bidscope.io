@@ -2,6 +2,7 @@ import React from "react";
 import "../css/main.css";
 var bg = require("..//images/img-home.jpg")
 
+
 const Home = () => {
    return (
 
